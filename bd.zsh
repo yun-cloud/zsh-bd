@@ -2,6 +2,7 @@ bd () {
   (($#<1)) && {
     # Personal habit
     cd ..
+    return 0
     # print -- "usage: $0 <name-of-any-parent-directory>"
     # print -- "       $0 <number-of-folders>"
     # return 1
