@@ -1,3 +1,11 @@
+## Fork note
+
+Modification in this fork:
+- cd to parent directory when no argument supply
+- symbolic link bd.zsh to zsh-bd (repo name) for zimfw
+
+---
+
 [![Build Status](https://travis-ci.org/Tarrasch/zsh-bd.png)](https://travis-ci.org/Tarrasch/zsh-bd)
 
 # zsh-bd
