@@ -1,8 +1,10 @@
 bd () {
   (($#<1)) && {
-    print -- "usage: $0 <name-of-any-parent-directory>"
-    print -- "       $0 <number-of-folders>"
-    return 1
+    # Personal habit
+    cd ..
+    # print -- "usage: $0 <name-of-any-parent-directory>"
+    # print -- "       $0 <number-of-folders>"
+    # return 1
   } >&2
   # example:
   #   $PWD == /home/arash/abc ==> $num_folders_we_are_in == 3
